@@ -1,0 +1,482 @@
+
+
+.social-media-icons {
+    background: green;
+    height: 30px;
+}
+
+.search {
+    background: yellow;
+    height: 30px;
+}
+
+.main-menu ul li,
+.footer-menu ul li {
+    display: inline;
+}
+
+
+
+.magenta-gradient {
+    background: rgb(2, 0, 36);
+}
+
+
+
+.hero {
+    background-size: cover;
+    width: 100%;
+    color: white;
+    padding: 0px;
+    height: 500px;
+    background-position: center;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+h2.hero-typography {
+    line-height: 1em;
+}
+
+.date {
+    text-transform: uppercase;
+}
+
+
+
+.navbar a {
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.stripes {
+    background-image: url('/wp-content/uploads/2023/02/stripes.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom 0px right 0px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 0;
+}
+
+
+body {
+    font-family: "quatro", sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.display-5 {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.display-6 {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.display-7 {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.display-8 {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.card-title {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.hero .display-3,
+.hero p {
+    text-shadow: #000 1px 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffe604 50%);
+    color: black; 
+    cursor: pointer !important; 
+
+}
+
+.hero h2 > a:hover {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,#ffe604 50%);
+    color:black !important ; 
+}
+
+a.yellowBG {
+    padding:5px;
+    background-color: transparent;
+    color:ffe604 !important ; 
+}
+
+a.yellowBG:hover {
+    padding:5px;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,#ffe604 50%);
+    color:black !important ; 
+}
+
+#search-icon:hover {
+    background: transparent;
+    color:white !important;
+  }
+  
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card {
+    border:none;
+    --bs-card-spacer-y: .5rem;
+}
+
+.display-3 {
+    line-height:1;
+}
+
+
+.row {
+    --bs-gutter-x: 2rem;
+}
+
+.card-title {
+    font-size:1rem;
+    font-weight:700;
+}
+
+#newsletterSignup {
+    background-image: url('/wp-content/uploads/2023/02/car-bg.jpg');
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+}
+
+#newsletterSignup h3,
+#newsletterSignup h2 {
+    text-shadow: -1px 4px 0 #000;
+    text-transform: uppercase;
+    text-transform: italic;
+}
+
+
+small {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .75rem !important;
+    color:black;
+}
+
+/* small::before {
+    content: "BY: "; 
+    color:black;
+} */
+
+h5.card-title {
+    margin-bottom: 0px;
+    text-transform: none;
+}
+
+/* #categories h5 {
+    font-size: rem;
+    --max-lines: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+} */
+
+.bottom-stripe {
+    background-image: url('/wp-content/uploads/2023/02/bottom-stripe.png');
+    background-repeat: repeat-x;
+    background-position: bottom 0px right 0px;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+footer  {
+    background-color: black;
+}
+
+.small-copy {
+    font-size: .75rem;
+}
+
+
+h5.card-title {
+    font-size: 1rem;
+    --max-lines: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+}
+
+h5.card-title.most-recent {
+    font-size: .9rem;
+}
+
+.card-title.featured {
+    font-size:1.5rem;
+    font-weight: 800;
+}
+
+.navbar {
+    /* background-color: transparent; */
+    color:white;
+}
+
+.nav-item:hover {
+cursor: pointer !important;
+}
+
+a.nav-link {
+    cursor: pointer;
+}
+
+a.nav-link {
+    color:white;
+    font-family: "quatro", sans-serif !important;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a.nav-link:hover {
+    color:white;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 90%, #ffe604 50%);
+    cursor: pointer !important; 
+z-index: 500;
+}
+
+.card-text {
+    font-size: .9rem;
+}
+
+
+
+.tag-stripe {
+    background-image: url('http://localhost:10006/wp-content/uploads/2023/02/stripes.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom 0px right 0px;
+    font-style: italic;
+    background-color:transparent;
+}
+
+h2.tag {
+margin:0;
+  padding:10px 30px 10px 10px;
+  display:inline-block;
+  background-color:black;
+  color:white;
+  font-size:.9rem;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 82% 100%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 82% 100%, 100% 0);
+}
+
+#gallery {
+    background-color: black;
+}
+
+.dark, .bg-dark {
+    background-color: #000 !important;
+    transition: .2s;
+}
+
+
+
+.card-img, .card-img-top {
+    border-radius: 0;
+}
+
+.wp-post-image {
+    width: 100% !important; /* or probably 100% in case of a grid */
+    height: auto !important; 
+}
+
+
+.nav-background {
+    background-color: white;
+}
+
+.article {
+    height: 50vh;
+   
+}
+
+h2.test-drives {
+    font-size:.9rem;
+    font-weight:700;
+    --max-lines: 3;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size:1.1rem;
+    line-height: 1.65rem;;
+}
+
+#searchOverlay {
+    background-color: rgba(0, 0, 0, 0.776);
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+}
+
+.no-scroll {
+overflow:hidden;
+}
+
+
+
+#searchOverlay  .container, 
+#searchOverlay .container .row {
+    height: inherit;
+    transition: 1s ease;
+}
+
+#searchOverlay .container .row {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+
+#searchOverlay   .container   .row   input{
+    background-color: white;
+    font-size:2rem;
+    padding:.5rem;
+    width:100%;
+} 
+
+.fa-window-close:hover {
+    cursor: pointer;
+}
+
+a.navbar-brand.noBG:hover {
+    background: transparent;
+}
+
+.navbar-brand {
+    font-family: "quatro", sans-serif;
+    font-weight: 900 !important;
+    font-style: italic;
+}
+
+.navbar-brand:hover {
+    background: transparent;
+}
+
+a#search-icon:hover {
+    color:black;
+}
+
+
+
+@media (max-width: 767.98px) { 
+    
+    .display-5 {
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    
+    .display-6 {
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+    
+    .display-7 {
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    
+    .display-8 {
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: .75rem;
+    }
+
+ }
+
+ 
+ 
+
+
+
+@media (max-width: 992px) {
+
+    .navbar-toggler {
+        color:white;
+        border: 0px;
+    }
+
+    .navbar-toggler:active {
+       outline: none;
+    }
+
+     .fixed-top {
+        background-color: black;
+    }
+}
